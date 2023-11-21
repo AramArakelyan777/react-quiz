@@ -32,7 +32,7 @@ function QuizPage() {
 
     return (
         <div>
-            <h1>{currentQuestions[currentIndex].question}</h1>
+            <h1 id="question">{currentQuestions[currentIndex].question}</h1>
             <div id="quizPageButtons">
                 <button onClick={() => handleAnswerClick(1)}>{currentQuestions[currentIndex].variant1}</button>
                 <button onClick={() => handleAnswerClick(2)}>{currentQuestions[currentIndex].variant2}</button>

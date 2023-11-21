@@ -24,3 +24,9 @@
     background-color: #121212;
     color: rgba(0, 119, 9, 1);
 }
+
+@media screen and (max-width: 350px) {
+    #question {
+        font-size: 25px;
+    }
+}
