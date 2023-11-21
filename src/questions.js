@@ -1,0 +1,222 @@
+export let musicQuestions = [
+    {
+        question: "Which English Sir has had No. l's in the 50's, 60's, 70's, 80's and 90's?",
+        variant1: "Sir Jack Adams",
+        variant2: "Sir Cliff Richard",
+        variant3: "Sir Donald Allen",
+        variant4: "Sir Bob Armstrong",
+        trueVariant: 2
+    },
+    {
+        question: "Which famous film star danced (and flew) in the video to Fatboy Slim's 2001 track Weapon of choice?",
+        variant1: "Tom Cruise",
+        variant2: "Julia Roberts",
+        variant3: "Bruce Willis",
+        variant4: "Christopher Walken",
+        trueVariant: 4
+    },
+    {
+        question: "Which band had a huge international hit album in 2002 with the record “A Rush of Blood to the Head”?",
+        variant1: "U2",
+        variant2: "Creed",
+        variant3: "Coldplay",
+        variant4: "Blink-182",
+        trueVariant: 3
+    },
+    {
+        question: "How many members are there in South Korean mega boyband BTS?",
+        variant1: "5",
+        variant2: "7",
+        variant3: "4",
+        variant4: "6",
+        trueVariant: 2
+    },
+    {
+        question: "In which video did Michael Jackson first perform his famous moonwalk in 1983?",
+        variant1: "Billie Jean",
+        variant2: "Beat It",
+        variant3: "Smooth Criminal",
+        variant4: "Earth Song",
+        trueVariant: 1
+    },
+    {
+        question: "Roger Taylor is the drummer in which band?",
+        variant1: "Creed",
+        variant2: "One Direction",
+        variant3: "Blink-182",
+        variant4: "Queen",
+        trueVariant: 4
+    }
+];
+
+export let moviesQuestions = [
+    {
+        question: "The world's earliest surviving motion-picture film, showing actual consecutive action is called Roundhay Garden Scene. In which year was it released?",
+        variant1: "1879",
+        variant2: "1798",
+        variant3: "1911",
+        variant4: "1888",
+        trueVariant: 4
+    },
+    {
+        question: "What year was the first Toy Story film released in cinemas?",
+        variant1: "1995",
+        variant2: "2000",
+        variant3: "1983",
+        variant4: "2002",
+        trueVariant: 1
+    },
+    {
+        question: "Which actor got his big break playing a lonely schoolboy in About A Boy?",
+        variant1: "Tom Hanks",
+        variant2: "Nicholas Hoult",
+        variant3: "Adam Sandler",
+        variant4: "Nicole Kidman",
+        trueVariant: 2
+    },
+    {
+        question: "Who played the lead role in the 2001 film Lara Croft: Tomb Raider?",
+        variant1: "Brad Pitt",
+        variant2: "Angelina Jolie",
+        variant3: "Johnny Depp",
+        variant4: "Jennifer Aniston",
+        trueVariant: 2
+    },
+    {
+        question: "Who became the first woman to win a Best Director Oscar in 2010?",
+        variant1: "Kathryn Bigelow",
+        variant2: "John Huston",
+        variant3: "Sidney Lumet",
+        variant4: "Woody Allen",
+        trueVariant: 1
+    }
+];
+
+export let mathsQuestions = [
+    {
+        question: "How many months are there in twelve years?",
+        variant1: "150",
+        variant2: "200",
+        variant3: "450",
+        variant4: "144",
+        trueVariant: 4
+    },
+    {
+        question: "What is the next number in the series: 2, 9, 30, 93, …?",
+        variant1: "100",
+        variant2: "4.5",
+        variant3: "282",
+        variant4: "126",
+        trueVariant: 3
+    },
+    {
+        question: "3 - 7 x 4 = ?",
+        variant1: "-25",
+        variant2: "25",
+        variant3: "0",
+        variant4: "27",
+        trueVariant: 1
+    },
+    {
+        question: "When did the first printed book on mathematics appear?",
+        variant1: "1565",
+        variant2: "1478",
+        variant3: "879",
+        variant4: "305",
+        trueVariant: 2
+    },
+    {
+        question: "In which branch of mathematics the 'Pythagorean Theorem' is used?",
+        variant1: "Algebra",
+        variant2: "Applied maths",
+        variant3: "Math. analysis",
+        variant4: "Geometry",
+        trueVariant: 4
+    }
+];
+
+export let geographyQuestions = [
+    {
+        question: "What country is Beirut the capital of?",
+        variant1: "Argentina",
+        variant2: "Portugal",
+        variant3: "Russia",
+        variant4: "Lebanon",
+        trueVariant: 4
+    },
+    {
+        question: "What did Ceylon change its name to in 1972?",
+        variant1: "India",
+        variant2: "China",
+        variant3: "Sri Lanka",
+        variant4: "Vietnam",
+        trueVariant: 3
+    },
+    {
+        question: "Which is the largest island in the world?",
+        variant1: "Australia",
+        variant2: "India",
+        variant3: "Antarctica",
+        variant4: "Greenland",
+        trueVariant: 4
+    },
+    {
+        question: "Which country below is not European?",
+        variant1: "Poland",
+        variant2: "Peru",
+        variant3: "Great Britain",
+        variant4: "Romania",
+        trueVariant: 2
+    },
+    {
+        question: "What African country has the largest population?",
+        variant1: "Nigeria",
+        variant2: "Algeria",
+        variant3: "Egypt",
+        variant4: "Ethiopia",
+        trueVariant: 1
+    }
+];
+
+export let historyQuestions = [
+    {
+        question: "As recently dramatised in a critically acclaimed miniseries, what year did the Chernobyl disaster occur?",
+        variant1: "1985",
+        variant2: "1898",
+        variant3: "1986",
+        variant4: "1954",
+        trueVariant: 3
+    },
+    {
+        question: "In which European country was there a civil war between 1946 and 1949?",
+        variant1: "Spain",
+        variant2: "Romania",
+        variant3: "Greece",
+        variant4: "France",
+        trueVariant: 3
+    },
+    {
+        question: "Which British King suffered from a stammer, as portrayed by Colin Firth in The King's Speech?",
+        variant1: "King Artur",
+        variant2: "King George VI",
+        variant3: "Prince Philip",
+        variant4: "Edward VIII",
+        trueVariant: 2
+    },
+    {
+        question: "In which country did the Second World War Battles of El Alamein take place?",
+        variant1: "Egypt",
+        variant2: "France",
+        variant3: "USSR",
+        variant4: "Vietnam",
+        trueVariant: 1
+    },
+    {
+        question: "When did the battle of Avarayr happen?",
+        variant1: "451",
+        variant2: "405",
+        variant3: "301",
+        variant4: "2020",
+        trueVariant: 1
+    }
+];
