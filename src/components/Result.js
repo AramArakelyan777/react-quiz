@@ -10,7 +10,8 @@ function Result({ score }) {
     };
     return (
         <div>
-            <h1>The Quiz Is Completed</h1>
+            <h1>And Bob's Your Uncle!</h1>
+            <h3>The quiz is completed.</h3>
             <p>Your score is {locaton.state.score} out of {locaton.state.currentQuestionsLength}.</p>
             <button onClick={navigateToHome}>Go Home</button>
         </div>

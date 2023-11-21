@@ -7,7 +7,7 @@ function Home({ navigateToQuizPage }) {
   return (
     <div>
       <h1>Welcome To TriviaNestHub!</h1>
-      <p>Please choose a category.</p>
+      <p>Please pick up a Category.</p>
       <div id="categoriesButtons">
         <button onClick={() => {
           navigateToQuizPage("music")
