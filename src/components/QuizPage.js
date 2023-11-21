@@ -8,7 +8,7 @@ function QuizPage() {
     const locaton = useLocation();
 
     let currentQuestions, score;
-    
+
     if (locaton.state === "music") currentQuestions = musicQuestions;
     else if (locaton.state === "movies") currentQuestions = moviesQuestions;
     else if (locaton.state === "maths") currentQuestions = mathsQuestions;
@@ -21,6 +21,14 @@ function QuizPage() {
     };
 
     let [currentIndex, setCurrentIndex] = useState(0);
+
+    const handleAnswerClick = (selectedVariant) => {
+        const isCorrect = currentQuestions[currentIndex].trueVariant === selectedVariant;
+        if (isCorrect) score = (score || 0) + 1;
+
+        if (currentIndex < currentQuestions.length - 1) setCurrentIndex(currentIndex + 1);
+        else navigateToResult(currentQuestions.length);
+    };
 
     return (
         <div>
