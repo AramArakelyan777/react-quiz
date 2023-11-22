@@ -16,7 +16,7 @@ function QuizPage() {
     else if (location.state === "history") currentQuestions = historyQuestions;
     else console.log("error");
 
-    const navigateToResult = (currentQuestionsLength) => {
+    const navigateToResult = (score, currentQuestionsLength) => {
         navigate('/result', { state: { score, currentQuestionsLength } });
     };
 
@@ -27,7 +27,7 @@ function QuizPage() {
         if (selectedVariant === currentQuestions[currentIndex].trueVariant) setScore(score + 1);
 
         if (currentIndex < currentQuestions.length - 1) setCurrentIndex(currentIndex + 1);
-        else navigateToResult(currentQuestions.length);
+        else navigateToResult(score, currentQuestions.length);
     };
 
     return (
