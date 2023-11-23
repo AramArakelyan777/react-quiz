@@ -27,7 +27,10 @@ function QuizPage() {
         if (selectedVariant === currentQuestions[currentIndex].trueVariant) setScore(prevScore => prevScore + 1);
 
         if (currentIndex < currentQuestions.length - 1) setCurrentIndex(prevIndex => prevIndex + 1);
-        else navigateToResult(score, currentQuestions.length);
+        else {
+            const updatedScore = selectedVariant === currentQuestions[currentIndex].trueVariant ? score + 1 : score;
+            navigateToResult(updatedScore, currentQuestions.length);
+        }
     };
 
     return (
