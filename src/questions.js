@@ -332,7 +332,7 @@ export let geographyQuestions = [
 
 export let historyQuestions = [
     {
-        question: "As recently dramatised in a critically acclaimed miniseries, what year did the Chernobyl disaster occur?",
+        question: "What year did the Chernobyl disaster occur?",
         variant1: "1985",
         variant2: "1898",
         variant3: "1986",
@@ -364,11 +364,51 @@ export let historyQuestions = [
         trueVariant: 1
     },
     {
-        question: "When did the battle of Avarayr happen?",
-        variant1: "451",
-        variant2: "405",
-        variant3: "301",
-        variant4: "2020",
+        question: "What language was spoken in Ancient Rome?",
+        variant1: "Romanian",
+        variant2: "Spanish",
+        variant3: "Italian",
+        variant4: "Latin",
+        trueVariant: 4
+    },
+    {
+        question: "Who was the first human to travel into space?",
+        variant1: "Neil Armstrong",
+        variant2: "Yuri Gagarin",
+        variant3: "Valentina Tereshkova",
+        variant4: "Alexei Leonov",
+        trueVariant: 2
+    },
+    {
+        question: "Who was the first President of the United States?",
+        variant1: "Barack Obama",
+        variant2: "John Adams",
+        variant3: "George Washington",
+        variant4: "Martin Van Buren",
+        trueVariant: 3
+    },
+    {
+        question: "Which British Prime Minister came right before Margaret Thatcher?",
+        variant1: "Boris Johnson",
+        variant2: "Theresa May",
+        variant3: "John Major",
+        variant4: "Gordon Brown",
+        trueVariant: 3
+    },
+    {
+        question: "Francisco Franco ruled which European country from 1939 to 1975?",
+        variant1: "Spain",
+        variant2: "Poland",
+        variant3: "France",
+        variant4: "UK",
+        trueVariant: 1
+    },
+    {
+        question: "Who is known as the 'Father of Medicine'?",
+        variant1: "Hippocrates",
+        variant2: "Galen",
+        variant3: "Socrates",
+        variant4: "Ibn Sina",
         trueVariant: 1
     }
 ];
