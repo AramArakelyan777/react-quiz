@@ -204,6 +204,46 @@ export let mathsQuestions = [
         variant3: "Math. analysis",
         variant4: "Geometry",
         trueVariant: 4
+    },
+    {
+        question: "What is the highest common factor of the numbers 30 and 132?",
+        variant1: "6",
+        variant2: "9",
+        variant3: "3",
+        variant4: "7",
+        trueVariant: 1
+    },
+    {
+        question: "An object is thrown into the air. After a while, it falls back to the Earth. The flight path of the object traces what shape?",
+        variant1: "A circle",
+        variant2: "A parabola",
+        variant3: "A square",
+        variant4: "A hyperbola",
+        trueVariant: 2
+    },
+    {
+        question: "How many hours are there in a year (rounded to the nearest hour)?",
+        variant1: "366",
+        variant2: "3600",
+        variant3: "8766",
+        variant4: "8760",
+        trueVariant: 4
+    },
+    {
+        question: "Which number is best represented in binary as 100?",
+        variant1: "100",
+        variant2: "1",
+        variant3: "4",
+        variant4: "2",
+        trueVariant: 3
+    },
+    {
+        question: "What is the year 1982 in Roman Numerals? ",
+        variant1: "MCMLXXII",
+        variant2: "IIXVIIIII",
+        variant3: "MCMLXXXII",
+        variant4: "MIXCVIIIII",
+        trueVariant: 3
     }
 ];
 
@@ -247,6 +287,46 @@ export let geographyQuestions = [
         variant3: "Egypt",
         variant4: "Ethiopia",
         trueVariant: 1
+    },
+    {
+        question: "How many continents are there?",
+        variant1: "5",
+        variant2: "6",
+        variant3: "2",
+        variant4: "7",
+        trueVariant: 4
+    },
+    {
+        question: "What is the capital of Australia?",
+        variant1: "Sydney",
+        variant2: "Canberra",
+        variant3: "Melbourne",
+        variant4: "Perth",
+        trueVariant: 2
+    },
+    {
+        question: "Where are the Spanish Steps located?",
+        variant1: "Barcelona",
+        variant2: "Madrid",
+        variant3: "Rome",
+        variant4: "Los Angeles",
+        trueVariant: 3
+    },
+    {
+        question: "How many time zones does Russia have?",
+        variant1: "11",
+        variant2: "12",
+        variant3: "24",
+        variant4: "4",
+        trueVariant: 1
+    },
+    {
+        question: "What is the name of the second tallest mountain in the world?",
+        variant1: "Ararat",
+        variant2: "Sinai",
+        variant3: "Everest",
+        variant4: "K2",
+        trueVariant: 4
     }
 ];
 
