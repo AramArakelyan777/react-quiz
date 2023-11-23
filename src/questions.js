@@ -1,18 +1,18 @@
 export let musicQuestions = [
     {
-        question: "Which English Sir has had No. l's in the 50's, 60's, 70's, 80's and 90's?",
-        variant1: "Sir Jack Adams",
-        variant2: "Sir Cliff Richard",
-        variant3: "Sir Donald Allen",
-        variant4: "Sir Bob Armstrong",
+        question: "The album, To the Extreme , was released by which hip hop group or artist?",
+        variant1: "Lauryn Hill",
+        variant2: "Vanilla Ice",
+        variant3: "Dr. Dre",
+        variant4: "50 Cent",
         trueVariant: 2
     },
     {
-        question: "Which famous film star danced (and flew) in the video to Fatboy Slim's 2001 track Weapon of choice?",
-        variant1: "Tom Cruise",
-        variant2: "Julia Roberts",
-        variant3: "Bruce Willis",
-        variant4: "Christopher Walken",
+        question: "Who recorded Rubber Soul?",
+        variant1: "The Who",
+        variant2: "AC/DC",
+        variant3: "Pink Floyd",
+        variant4: "The Beatles",
         trueVariant: 4
     },
     {
@@ -24,11 +24,11 @@ export let musicQuestions = [
         trueVariant: 3
     },
     {
-        question: "How many members are there in South Korean mega boyband BTS?",
-        variant1: "5",
-        variant2: "7",
+        question: "Get Rich or Die Tryin' by 50 Cent went platinum how many times?",
+        variant1: "2",
+        variant2: "8",
         variant3: "4",
-        variant4: "6",
+        variant4: "1",
         trueVariant: 2
     },
     {
@@ -40,12 +40,44 @@ export let musicQuestions = [
         trueVariant: 1
     },
     {
-        question: "Roger Taylor is the drummer in which band?",
-        variant1: "Creed",
-        variant2: "One Direction",
-        variant3: "Blink-182",
-        variant4: "Queen",
+        question: "Which successful rapper and hip hop star was shot dead in Las Vegas in 1996?",
+        variant1: "The Notorious B.I.G.",
+        variant2: "C. J. Wallace",
+        variant3: "Eazy-E",
+        variant4: "Tupac Shakur",
         trueVariant: 4
+    },
+    {
+        question: "Taylor Swift released two studio albums in 2020: one was titled Folklore, but what was the name of the other one?",
+        variant1: "reputation",
+        variant2: "Evermore",
+        variant3: "1989",
+        variant4: "Lover",
+        trueVariant: 2
+    },
+    {
+        question: "Rock band AC/DC originates from which country?",
+        variant1: "USA",
+        variant2: "Australia",
+        variant3: "UK",
+        variant4: "Canada",
+        trueVariant: 2
+    },
+    {
+        question: "Which 80s group, featuring Phil Collins, reunited in 2020?",
+        variant1: "Genesis",
+        variant2: "Rush",
+        variant3: "Kansas",
+        variant4: "Yes",
+        trueVariant: 1
+    },
+    {
+        question: "Björn Again is a tribute band for which world-famous pop group?",
+        variant1: "Ace of Base",
+        variant2: "Bee Gees",
+        variant3: "ABBA",
+        variant4: "Boney M.",
+        trueVariant: 3
     }
 ];
 
