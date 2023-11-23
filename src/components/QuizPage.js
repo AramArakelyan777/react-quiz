@@ -24,9 +24,9 @@ function QuizPage() {
     const [score, setScore] = useState(0);
 
     const handleAnswerClick = (selectedVariant) => {
-        if (selectedVariant === currentQuestions[currentIndex].trueVariant) setScore(score + 1);
+        if (selectedVariant === currentQuestions[currentIndex].trueVariant) setScore(prevScore => prevScore + 1);
 
-        if (currentIndex < currentQuestions.length - 1) setCurrentIndex(currentIndex + 1);
+        if (currentIndex < currentQuestions.length - 1) setCurrentIndex(prevIndex => prevIndex + 1);
         else navigateToResult(score, currentQuestions.length);
     };
 
