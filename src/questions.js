@@ -121,6 +121,46 @@ export let moviesQuestions = [
         variant3: "Sidney Lumet",
         variant4: "Woody Allen",
         trueVariant: 1
+    },
+    {
+        question: "In The Matrix, what pill did Neo Take?",
+        variant1: "Blue",
+        variant2: "Did not take",
+        variant3: "Red",
+        variant4: "Black",
+        trueVariant: 3
+    },
+    {
+        question: "In what 1976 thriller does Robert De Niro famously say 'You talkin' to me?'",
+        variant1: "Goodfellas",
+        variant2: "Taxi Driver",
+        variant3: "Heat",
+        variant4: "Joy",
+        trueVariant: 2
+    },
+    {
+        question: "Who actually drew the sketch of Rose in Titanic?",
+        variant1: "Leonardo DiCaprio",
+        variant2: "Billy Zane",
+        variant3: "James Cameron",
+        variant4: "Kathy Bates",
+        trueVariant: 3
+    },
+    {
+        question: "What is the name of the magical creature that can only be seen by those who have witnessed death?",
+        variant1: "Dragon",
+        variant2: "Hippogriff",
+        variant3: "Basilisk",
+        variant4: "Thestral",
+        trueVariant: 4
+    },
+    {
+        question: "Who played park owner John Hammond in Jurassic Park?",
+        variant1: "Richard Attenborough",
+        variant2: "Jeff Goldblum",
+        variant3: "Chris Pratt",
+        variant4: "Joseph Mazzello",
+        trueVariant: 1
     }
 ];
 
