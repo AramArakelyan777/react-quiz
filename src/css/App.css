@@ -1,38 +1,45 @@
 body {
-  background-color: #121212;
-  color: white;
+    background-color: #121212;
+    color: white;
 }
 
 .App {
-  text-align: center;
-  margin-top: 30px;
-  padding: 20px;
-  box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 #categoriesButtons {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #categoriesButtons button {
-  width: 200px;
-  height: 40px;
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  color: white;
-  font-weight: 900;
-  background-image: linear-gradient(to right top, rgb(7, 41, 145), rgba(0, 11, 200, 1), rgb(82, 1, 189), rgba(143, 0, 208, 1), rgba(214, 0, 255, 1));
-  cursor: pointer;
-  transition: color 300ms;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 900;
+    background-image: linear-gradient(
+        to right top,
+        rgb(7, 41, 145),
+        rgba(0, 11, 200, 1),
+        rgb(82, 1, 189),
+        rgba(143, 0, 208, 1),
+        rgba(214, 0, 255, 1)
+    );
+    cursor: pointer;
+    transition: color 300ms;
 }
 
 #categoriesButtons button:hover {
-  border: 3px solid rgb(82, 1, 189);
-  background-image: none;
-  background-color: #121212;
-  color: rgb(82, 1, 189);
+    border: 3px solid rgb(82, 1, 189);
+    background-image: none;
+    background-color: #121212;
+    color: rgb(82, 1, 189);
 }
